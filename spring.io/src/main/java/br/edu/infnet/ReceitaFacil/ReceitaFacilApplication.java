@@ -8,7 +8,8 @@ public class ReceitaFacilApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ReceitaFacilApplication.class, args);
-		System.out.println("Receita Fácil!");
+
+		new ReceitaFacilTestController();
 	}
 
 }

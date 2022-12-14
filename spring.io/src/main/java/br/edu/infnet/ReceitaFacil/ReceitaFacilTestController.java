@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ReceitaFacilTestController {
     @RequestMapping("/test")
     public String teste() {
-        return "Receita Fácil!!";
+        return "Receita Fácil  !!";
     }
     
 }

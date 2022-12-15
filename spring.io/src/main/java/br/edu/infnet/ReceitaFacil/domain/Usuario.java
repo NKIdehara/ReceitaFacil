@@ -5,17 +5,10 @@ public class Usuario {
     private String email;
     private String senha;
 
-    public void setNome(String nome) {
-        this.nome = nome;        
-    }
-
     public String getNome() {
         return this.nome;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
     public String getEmail() {
         return email;
     }
@@ -24,20 +17,21 @@ public class Usuario {
         return senha;
     }
 
-    public void setSenha(String senha) {
+    public Usuario (String nome, String email, String senha) {
+        this.nome = nome;
+        this.email = email;
         this.senha = senha;
     }
     
     @Override
     public String toString() {
         StringBuilder usuario = new StringBuilder();
-        usuario.append("Usuário: ")
+        usuario
+            .append("U;")
             .append(nome)
-            .append(" | ")
-            .append("email: ")
+            .append(";")
             .append(email)
-            .append(" | ")
-            .append("senha: ")
+            .append(";")
             .append(senha);
         
         return usuario.toString();

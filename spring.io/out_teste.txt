@@ -1,0 +1,2 @@
+Cozinheiro Chefe;Frango com Molho de Mostarda;4
+Cozinheiro Assistente;Macarrao ao Molho;5

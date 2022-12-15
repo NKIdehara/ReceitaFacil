@@ -54,17 +54,19 @@ public class PratoPrincipal extends Prato {
             .append(molho ? "com molho" : "sem molho")
             .append(";")
             .append(String.valueOf(calcularPeso()));
-        for (Ingrediente i : super.getIngrediente()) {
-            prato.append("\nI;" + i.toString());
-        }
+        if (super.qtdeIngredientes() > 0)
+            for (Ingrediente i : super.getIngrediente()) {
+                prato.append("\nI;" + i.toString());
+            }
         return prato.toString();
     }
     @Override
     public float calcularPeso() {
         float peso = 0;
-        for (Ingrediente i : super.getIngrediente()) {
-            peso = peso + qtdePessoas*i.getQuantidade();
-        }
+        if (super.qtdeIngredientes() > 0)
+            for (Ingrediente i : super.getIngrediente()) {
+                peso = peso + qtdePessoas*i.getQuantidade();
+            }
         return peso;
     }
 

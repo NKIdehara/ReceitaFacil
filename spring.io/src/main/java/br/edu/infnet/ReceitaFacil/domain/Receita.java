@@ -29,8 +29,12 @@ public class Receita {
         this.pratos = pratos;
     }
 
+    public int qtdeReceitas() {
+        return pratos.size();
+    }
+
     @Override
     public String toString(){
-        return String.format("R;%s;%s;%s", nome, usuario.toString(), pratos.toString());
+        return String.format("R;%s;%s;%d;%s\n", nome, usuario.toString(), pratos.size(), pratos.toString());
     }
 }

@@ -33,6 +33,10 @@ public abstract class Prato {
 
     public abstract float calcularPeso();
 
+    public int qtdeIngredientes() {
+        return ingredientes == null ? 0 : ingredientes.size();
+    }
+
     @Override
     public String toString() {
         StringBuilder prato = new StringBuilder();

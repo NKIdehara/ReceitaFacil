@@ -1,0 +1,13 @@
+U;Cozinheiro Chefe;cozinheiro@cozinha.com;123456
+E;amendoim;0;null;Colocar no pote;false;100;true
+P;frango;50;null;Temperar o frango com mostarda e assar;proteina;3;true
+P;arroz;30;null;Colocar o arroz na panela com agua;acompanhamento;3;false
+S;pera;0;null;Cortar a pera e servir;false;true;4
+R;Frango com Molho de Mostarda
+U;Cozinheiro Assistente;assistente@cozinha.com;654321
+E;pao;0;null;Cortar o pao;false;1;true
+E;sopa;20;null;Esquentar agua com legumes;false;1;true
+P;macarrao;10;null;Colocar o macarrao na agua com sal;massa;2;false
+P;molho de tomate;10;null;Esquentar uma lata de molho;molho de tomate;2;true
+S;sorvete;0;null;Colocar o sorvete no pote;false;false;1
+R;Macarrao ao Molho

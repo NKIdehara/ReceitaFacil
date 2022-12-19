@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T13:48:13.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Xyftf6eOKv_sMeM8jNtD" version="20.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-19T22:34:01.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="VFZntiLDwp2WxXNZIf4r" version="20.7.3" type="github" pages="2">
   <diagram id="_pqjIdRNE1lNzWgBRpJp" name="ReceitaFacil">
-    <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2421" dy="1897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,6 +360,86 @@
         </mxCell>
         <mxCell id="X-IdpKSJV3AJV5iMaEPw-91" value="Ingredientes" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" parent="1" vertex="1">
           <mxGeometry x="1820" y="-540" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-1" value="Diagrama de Classes" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=40;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="-1160" width="920" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Usuario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- email: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- senha: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Usuario(nome, email, senha)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNome(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getEmail(): String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getSenha(): String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2601.5" y="-793.5" width="179" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Prato&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- tempo: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ingredientes: List&amp;lt;Ingrediente&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- preparo: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ Prato(nome, tempo, ingredientes, preparo)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getNome(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getTempo(): int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getIngredientes(): List&amp;lt;Ingrediente&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getPreparo(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ qtdeIngredientes(): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2876" y="-943" width="244" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Entrada&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- individual: boolean&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- unidade: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- vegetariano: boolean&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isIndividual(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setIndividual(individual): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUnidade(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setUnidade(unidde): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isVegetariano(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setVegetariano(vegetariano): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calcularPeso(): float&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3238" y="-1146.5" width="212" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Sobremesa&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- quente: boolean&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- saudavel: boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- pedacos:int&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isQuente(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setQuente(quente): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isSaudavel(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setSaudavel(saudavel): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPedacos(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPedacos(pedacos): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calcularPeso(): float&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3238" y="-724.5" width="182" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Ingrediente&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- quantidade: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- liquido: boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Ingrediente(nome, quantidade, liquido)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNome(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getQuantidade(): float&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ isLiquido(): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2874.75" y="-630" width="246.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Receita&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pratos: List&amp;lt;Prato&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- usuario: Usuario&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getNome(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ setNome(nome): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getPratos(): List&amp;lt;Prato&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ setPratos(pratos): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getUsuario(): Usuario&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ setUsuario(usuario): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ qtdeReceitas(): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2611" y="-1083" width="160" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Principal&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- tipo: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- qtde_pessoas: int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- molho: boolean&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getTipo(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ setTipo(tipo): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getQtdePessoas(): int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ setQtdePessoas(qtde_pessoas): void&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ isMolho(): boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ setMolho(molho): void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ calcularPeso(): float&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3238" y="-936.5" width="232" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-9" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMvbNQoKk9XFY8NPzQ32-3" target="nMvbNQoKk9XFY8NPzQ32-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3878" y="-703" as="sourcePoint" />
+            <mxPoint x="4038" y="-703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-10" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="nMvbNQoKk9XFY8NPzQ32-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="2" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-11" value="1..*" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="nMvbNQoKk9XFY8NPzQ32-9">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nMvbNQoKk9XFY8NPzQ32-4" target="nMvbNQoKk9XFY8NPzQ32-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3118" y="-803" as="sourcePoint" />
+            <mxPoint x="3088" y="-883" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMvbNQoKk9XFY8NPzQ32-8" target="nMvbNQoKk9XFY8NPzQ32-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3158" y="-643" as="sourcePoint" />
+            <mxPoint x="3318" y="-643" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.995;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nMvbNQoKk9XFY8NPzQ32-5" target="nMvbNQoKk9XFY8NPzQ32-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3108" y="-773" as="sourcePoint" />
+            <mxPoint x="3268" y="-773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-15" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMvbNQoKk9XFY8NPzQ32-7" target="nMvbNQoKk9XFY8NPzQ32-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2993.5" y="-997" as="sourcePoint" />
+            <mxPoint x="2993.5" y="-907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-16" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="nMvbNQoKk9XFY8NPzQ32-15">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="2" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-17" value="1..*" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="nMvbNQoKk9XFY8NPzQ32-15">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMvbNQoKk9XFY8NPzQ32-18" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nMvbNQoKk9XFY8NPzQ32-2" target="nMvbNQoKk9XFY8NPzQ32-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2558" y="-853" as="sourcePoint" />
+            <mxPoint x="2718" y="-853" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
